@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BCA Sem‑4 Topic Management Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><h1>BCA Semester 4 Portal</h1></header>
+  <div class="container">
+    <button class="btn-admin" id="adminBtn">ADMIN MODE</button>
+    <div class="welcome">Welcome, Suman Saurabh 👋</div>
+
+    <div class="theme-switcher">
+      <span>Theme:</span>
+      <button class="theme-btn" data-color="#f7f9fc">Ultra Light</button>
+      <button class="theme-btn" data-color="#e3f2fd">Serenity Blue</button>
+      <button class="theme-btn" data-color="#e8f5e9">Mint Cream</button>
+      <button class="theme-btn" data-color="#fff9e6">Warm Ivory</button>
+    </div>
+
+    <nav id="subjectNav">
+      <button class="active" data-subj="all">All</button>
+      <button data-subj="BCA-401">BCA‑401</button>
+      <button data-subj="BCA-402">BCA‑402</button>
+      <button data-subj="BCA-403">BCA‑403</button>
+      <button data-subj="BCA-404">BCA‑404</button>
+    </nav>
+
+    <input id="searchInput" class="search" placeholder="Search entries…">
+
+    <div id="syllabus-BCA-401" class="syllabus">
+      <h2>BCA‑401: RELATIONAL DATABASE MANAGEMENT SYSTEM</h2>
+      <p> <b>INTRODUCTION TO DATABASE SYSTEMS:</b> Overview and History of DBMS. File System
+vs DBMS .Advantage of DBMS Describing and Storing Data in a DBMS. Queries in DBMS.
+Transaction management and Structure of a DBMS, Components of DBMS; The 3 level
+architecture of DBMS – Hierarchical, Network, and Relational Model; Distributed Database; KBDBMS; OODBMS (Basic Concepts).</p>
+<br>
+<p><b>ENTITY RELATIONSHIP MODEL:</b>Overview of Data Design Entities, Attributes and Entity
+Sets, Relationship and Relationship Sets. Features of the ER Model-Key Constraints, Participation
+Constraints, Weak Entities, Class Hierarchies,Aggregation, Conceptual Data Base, Design with ER
+Model-Entity vs Attribute, Entity vs Relationship Binary vs Ternary Relationship and Aggregation
+vs ternary Relationship Conceptual Design for a Large Enterprise. RELATIONSHIP ALGEBRA
+AND CALCULUS: Relationship Algebra Selection and Projection, Set Operations Renaming,
+Joint, Division, Relation Calculus, Expressive Power of Algebra and Calculus.</p>
+<br>
+<p><b>SQL QUERIES PROGRAMMING AND TRIGGERS:</b> The Forms of a Basic SQL Query,
+Union, Intersection and Exception,Nested Queries ,Correlated Nested Queries, Set-Comparison
+Operations, Aggregate Operators, Null Values and Embedded SQL, Dynamic SQL, ODBC and
+JDBC, Triggers and Active Databases.</p>
+<br>
+<p><b>SCHEMA REFINEMENT AND NORMAL FORMS:</b> Introductions to Schema Refinement,
+Functional Dependencies, Boyce-Codd Normal Forms, Third Normal Form, NormalizationDecomposition into BCNF Decomposition into 3-NF.  </p>
+    </div>
+    <div id="syllabus-BCA-402" class="syllabus">
+      <h2>BCA‑402: DIGITAL ELECTRONICS, COMPUTER ARCHITECTURE</h2>
+    <p><b>Introduction to Digital Circuits:</b>The Basic Computer; The Von-Neumann Architecture,
+Instruction Execution: An Example, Instruction Cycle Interrupts, Interrupts and Instruction Cycle,
+Computers: Then and Now, The Beginning, First Generation Computers, Second Generation
+Computers, Third Generation Computers, Later Generations.</p>
+<br>
+<p><b>The Data Representation:</b> Data Representation, Number Systems, Decimal Representation in
+Computers, Alphanumeric Representation, Data Representation for Computation, Error Detection
+and Correction Codes.</p>
+<br>
+<p><b>Principles of Logic Circuits I:</b>&nbsp;Logic Gates, Logic Circuits, Combinational Circuits, Canonical
+and Standard Forms, Minimization of Gates, Design of Combinational Circuits, Examples of
+Logic Combinational Circuits, Adders, Decoders, Multiplexer, Encoder, Programmable Logic
+Array, Read Only Memory ROM.
+   </p>
+   <br>
+   <p><b>Principles of Logic Circuits II: </b>Sequential Circuits: The Definition, Flip Flops, Basic Flip-Flops,
+Excitation Tables, Master Slave Flip Flops, Edge Triggered Flip-flops, Sequential Circuit
+Design, Examples of Sequential Circuits, Registers, Counters: Asynchronous Counters,
+Synchronous Counters, RAM, Design of a Sample Counter.  </p>
+<br>
+<p><b>Basic Computer Organisation: </b>The Memory System: The Memory Hierarchy, RAM, ROM,
+DRAM, Flash Memory, Secondary Memory and Characteristics, Hard Disk Drives, Optical
+Memories, CCDs, Bubble Memories, RAID and its Levels, The Concepts of High Speed
+Memories, Cache Memory, Cache Organisation, Memory Interleaving, Associative Memory</p>
+<br>
+<p><b>The Input/Output System:</b>Input / Output Devices or External or Peripheral Devices, The Input
+Output Interface, the Device Controllers and its Structure, Device Drivers, Input Output
+Techniques, Programmed Input /Output, Interrupt-Driven Input /Output, Interrupt-Processing,
+DMA (Direct Memory Access). Input Output Processors, External Communication Interfaces. </p>
+<br>
+<p><b>The Central Processing Unit: </b>Instruction Set Architecture; Instruction Set Characteristics,
+Instruction Set Design Considerations, Operand Data Types, Types of Instructions, Number of
+Addresses in an Instruction, Addressing Schemes, Types of Addressing Schemes, Immediate
+Addressing, Direct Addressing, Indirect Addressing, Register Addressing, Register Indirect
+Addressing, Indexed Addressing Scheme, Base Register Addressing, Relative Addressing Scheme,
+Stack Addressing, Instruction Set and Format Design Issues, Instruction Length, Allocation of Bits
+Among Opcode and Operand, Variable Length of Instructions, Example of Instruction Format.
+  </p>
+  <br>
+  <p><b>Registers, Micro-Operations and Instruction Execution:</b>Basic CPU Structure, Register
+Organization, Programmer Visible Registers, Status and Control Registers, General Registers in a
+Processor, Micro-operation Concepts, Register Transfer Micro-operations, Arithmetic Microoperations, Logic Micro- operations, Shift Micro-operations, Instruction Execution and Microoperations, Instruction Pipelining.
+  </p>
+  <br>
+  <p><b>ALU Organisation:</b>ALU Organisation, A Simple ALU Organization, A Sample ALU Design,
+Arithmetic Processors.</p>
+<br>
+<p><b>The Control Unit:</b>The Control Unit, The Hardwired Control, Wilkes Control, The MicroProgrammed Control, The Micro-Instructions, Types of Micro-Instructions, Control Memory
+Organisation, Micro-Instruction Formats, The Execution of Micro-Program.  </p>
+    </div>
+    <div id="syllabus-BCA-403" class="syllabus">
+      <h2>BCA‑403: FILE & DATA STRUCTURE</h2>
+	<h3>Introduction to Data Structure and Application of Data Structure</h3>
+    <p><b>Algorithms and Analysis of Algorithms:</b>Definition, Structure and Properties of Algorithms,
+Development of an Algorithm, Data Structures and Algorithms, Data Structure – Definition and
+Classification, Efficiency of Algorithms, Apriory Analysis, Asymptotic Notations, Time
+Complexity of an Algorithm using O Notation, Polynomial Vs Exponential Algorithms, Average,
+Best and Worst case Complexities, Analyzing Recursive Programs, Open source software
+development process.</p>
+<br>
+<p><b>Linked List, Linked Stacks and Linked Queues:</b>Singly Linked Lists, Circularly Linked Lists,
+Doubly Linked Lists, Multiply Linked Lists, Applications of Linked Lists, Introduction to Linked
+Stack and Linked Queues, Operations on Linked Stacks and Linked Queues, Dynamic Memory
+Management and Linked Stack, Implementations of Linked Representations, Applications of
+Linked Stacks and Linked Queues.
+  </p>
+  <br>
+  <p><b>Arrays, Stacks and Queues:</b>Array Operations, Number of Elements in an Array, Representation
+of Arrays in Memory, Applications of Array, Stack-Introduction, Stack Operations, Applications of
+Stack, Queues-Introduction, Operations on Queues, Circular Queues, Other Types of Queues,
+Applications of Queues, Polynomials & Sparse matrix.</p>
+<br>
+<p><b>Trees, Binary Trees, BST, AVL Trees and B Trees:</b>Trees: Definition and Basic Terminologies,
+Representation of Trees, Binary Trees: Basic Terminologies and Types, Representation of Binary
+Trees, Binary Tree Traversals, Threaded Binary Trees, Applications, BST & AVL Trees:
+Introduction, BST: Definition and Operations, AVL Trees: Definition and Operations, B Trees:
+Introduction, m-way search trees: Definition and Operations, B Trees: Definition and Operations.  </p>
+<br>
+<p><b>Graphs:</b>Introduction, Definitions and Basic Terminologies, Representations of Graphs, Graph
+Traversals, Single-Source Shortest-Path Problem, Minimum Cost Spanning Trees.
+  </p>
+  <br>
+  <p><b>Sorting :</b>Understanding Internal and External Sorting.</p>
+  <br><p><b>Internal Sorting:</b> Insertion Sort, Bubble Sort, shell sort, Quick Sort, 2-way Merge Sot, Heap
+Sort, Sorting on Several Keys.</p>
+<br><p><b>Searching:</b>Introduction, Binary Search, Transpose Sequential Search, Interpolation Search.</p>
+    </div>
+    <div id="syllabus-BCA-404" class="syllabus">
+      <h2>BCA‑404: INTRODUCTION TO STATISTICS</h2>
+    <p><h3>UNIT-I</h3><br>
+<b>COMBINATORICS: </b>Permutation and Combination, Repetition and Constrained Repetition,
+Binomial Coefficients, Binomial Theorem.
+<br><h3>UNIT-II</h3>
+Frequency distributions, Histograms and frequency polygons, Measures of central tendency: Mean,
+Mode, Median, Dispersion, Mean deviation and standard deviation. Moments, Skewness, kurtosis,
+<br><h3>UNIT–III</h3>
+<b>Elementary probability theory:</b> Definition, conditional probability, Probability distribution,
+mathematical expectation'
+Theoretical distribution: Binomial , poisson and Normal distribution, Relation between the
+binomial, poisoned Normal distribution.
+<br><h3>UNIT-IV</h3>
+<b>Correlation and Regression:</b> Linear Correlation, Measure of Correlation, Least Square
+Regression lines.
+Curve fitting: Method of least square, least square line, least squares Parabola. chi-square test:
+definition of chi-square; signification test: contingency test, coefficient of contingency.
+<br><h3>UNIT-V</h3>
+</b>Basic of sampling theory:</b> Sample mean and variance, students t-test, test of Hypotheses and
+significance, degree of freedom, Z-test, small and large sampling, Introduction to Monte Carlo
+method</p>
+    </div>
+
+    <div class="table-responsive">
+      <table id="topicTable">
+        <thead>
+          <tr>
+            <th>Subject</th><th>Topic</th><th>Subtopics</th><th>Date</th><th>Page No.</th>
+            <th class="remarks-cell">Remarks</th><th class="admin-only">URL</th><th class="admin-only">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-subj="BCA-401">
+            <td>BCA‑401</td><td>ER Model</td><td>Entities, Attributes, Relationships</td><td>2025‑07‑20</td><td>12–18</td>
+            <td class="remarks-cell">Review cardinalities and weak entities.</td>
+            <td class="admin-only">https://example.com/er-model</td>
+            <td class="admin-only">
+              <button class="btn-edit">Edit</button>
+              <button class="btn-save">Save</button>
+            </td>
+          </tr>
+          <tr data-subj="BCA-402">
+            <td>BCA‑402</td><td>Logic Circuits</td><td>Gates, Flip‑Flops, Counters</td><td>2025‑07‑22</td><td>45–55</td>
+            <td class="remarks-cell">Practice K‑map simplifications.</td>
+            <td class="admin-only">https://example.com/logic-circuits</td>
+            <td class="admin-only">
+              <button class="btn-edit">Edit</button>
+              <button class="btn-save">Save</button>
+            </td>
+          </tr>
+          <tr data-subj="BCA-403">
+            <td>BCA‑403</td><td>Sorting Algorithms</td><td>QuickSort, MergeSort, HeapSort</td><td>2025‑07‑23</td><td>89–96</td>
+            <td class="remarks-cell">Analyze complexities & behavior.</td>
+            <td class="admin-only">https://example.com/sorting</td>
+            <td class="admin-only">
+              <button class="btn-edit">Edit</button>
+              <button class="btn-save">Save</button>
+            </td>
+          </tr>
+          <tr data-subj="BCA-404">
+            <td>BCA‑404</td><td>Probability Distributions</td><td>Binomial, Poisson, Normal</td><td>2025‑07‑24</td><td>101–108</td>
+            <td class="remarks-cell">Understand curve forms & applications.</td>
+            <td class="admin-only">https://example.com/statistics</td>
+            <td class="admin-only">
+              <button class="btn-edit">Edit</button>
+              <button class="btn-save">Save</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="cardList" class="card-list"></div>
+  </div>
+
+  <div id="passwordModal">
+    <div class="modal-content">
+      <h3>Enter Admin Password</h3>
+      <input id="passwordInput" type="password" placeholder="••••••••">
+      <button class="submit-btn">Submit</button>
+      <button class="cancel-btn">Cancel</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

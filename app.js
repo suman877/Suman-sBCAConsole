@@ -1,4 +1,4 @@
-const PASS = "sem4succeeded";
+const PASS = "CEO7global";
 const adminBtn = document.getElementById("adminBtn");
 const subjectNav = document.getElementById("subjectNav");
 const searchInput = document.getElementById("searchInput");
@@ -93,3 +93,4 @@ window.addEventListener("DOMContentLoaded", () => {
   selectSubject(subjectNav.querySelector("button.active"));
   window.addEventListener("resize", buildCards);
 });
+
